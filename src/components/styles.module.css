@@ -1,7 +1,7 @@
 
   .clock {
-    width: 40vw;
-    height: 40vw;
+    width: 30vw;
+    height: 30vw;
     background-color: rgba(255, 255, 255, 0);
     border-radius: 50%;
     position: relative;
@@ -14,7 +14,7 @@
     height: 100%;
     text-align: center;
     transform: rotate(var(--rotation));
-    font-size: 5vw;
+    font-size: 3vw;
   }
   
   .clock .number1 { --rotation: 30deg; }
@@ -57,22 +57,21 @@
   
   .clock .hand.second {
     width: 3px;
-    height: 15vw;
+    height: 12vw;
     background-color: rgb(255, 255, 255);
   }
   
   .clock .hand.minute {
     width: 7px;
-    height: 12vw;
+    height: 10vw;
     background-color: rgb(255, 255, 255);
   }
   
   .clock .hand.hour {
     width: 7px;
-    height: 9vw;
+    height: 6vw;
     background-color: rgb(255, 255, 255);
   }
-
   .background {
     position: absolute;
     align-items: center;
@@ -84,6 +83,50 @@
     right: 0;
     z-index: -1;
     overflow: hidden;
-    font-size: 8vw;
+    font-size: 6vw;
+   padding: 1rem;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .background {
+    position: absolute;
+    align-items: center;
+    display: flex;
+    color: #685e5e;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    overflow: hidden;
+    font-size: 12vw;
    padding: 1rem;
  }
+ .clock {
+  width: 60vw;
+  height: 60vw;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 50%;
+  position: relative;
+}
+.clock .hand.second {
+  width: 2px;
+  height: 20vw;
+  background-color: rgb(255, 255, 255);
+}
+
+.clock .hand.minute {
+  width: 5px;
+  height: 15vw;
+  background-color: rgb(255, 255, 255);
+}
+
+.clock .hand.hour {
+  width: 5px;
+  height: 10vw;
+  background-color: rgb(255, 255, 255);
+}
+}
+
+
+
