@@ -1,0 +1,70 @@
+{
+    "about": {
+        "title": "About",
+        "content": ["Hi! I'm a Fullstack developer, Typescript,  GCP associate and Github actions certified. I have experience working with Javascript, React, Next.js, Node.js, Express, Nestjs, databases both relational (SQL, PostgreSQL) and non relational (MongoDB).", "I have worked with scalable applications for global companies and also working with individual clients and small projects.", "Whenever I can, I like to contribute to open source projects and help others in the community. I am passionate about learning new technologies and improving my skills. I also love woodworking and cycling."]
+    },
+    "picture": "/static/img/profile.jpg",
+    "education":[
+        {
+            "name": "Universidad de San Carlos de Guatemala",
+            "degree": "Bachelor of Computer Science - Bachelor of Science - BS",
+            "start_date": "2022",
+            "end_date": "2024",
+            "skills": "Engineering, Computer Science"
+        },
+        {
+            "name": "Universidad de San Carlos de Guatemala",
+            "degree": "Mechanical Electrical Engineering",
+            "start_date": "2011",
+            "end_date": "2013",
+            "skills": "Mechanical Engineering, Analytical skills"
+        }
+    ],
+
+    "jobs": [
+        {
+            "title": "Production Engineer Fellow",
+            "company_name": "Meta x Major League Hacking",
+            "start_date": "05-2025",
+            "end_date": "09-2025",
+            "description": "Completed a structured fellowship focused on modern software engineering practices, reliability, and automation. \n Designed and built full-stack applications using Python (Flask) and MySQL Automated deployments with GitHub Actions, containerized services with Docker. \n Applied test-driven development (TDD) principles to ensure code quality and maintainability. \nConfigured Nginx to serve a reverse proxy that can manage the SSL certs and control traffic and amount of requests. \n Collaborated in Agile teams, contributing to sprints, peer code reviews, and troubleshooting.",
+            "skills": "Production Engineering, Python, Linux, Systems Design, Debugging, Problem Solving, Attention to Detail, Continuous Integration and Continuous Delivery (CI/CD), Git"
+        },
+        {
+            "title": "Applications Developer",
+            "company_name": "Telus Digital",
+            "start_date": "02-2023",
+            "end_date": "05-2024",
+            "description": "Developed and maintained large-scale retail applications using React, Next.js, Node.js, and TypeScript. Integrated REST APIs and optimized database queries for PostgreSQL, MongoDB, and SQL Server. \nEnhanced code quality through unit testing (Jest), introduced monitoring with GCP Cloud Logging, and improved CI/CD workflows with GitHub Actions. \nPartnered with distributed Scrum teams across multiple time zones to deliver customer-facing features.",
+            "skills": "TypeScript, Continuous Integration and Continuous Delivery, Engineering, Google Cloud Platform, Jest, Next.js, Node.js, GitHub Actions, Micro Frontends, Attention to Detail, Debugging, Webpack, Microfrontends (MFEs)"
+        },
+        {
+            "title": "Fullstack web applications developer intern",
+            "company_name": "Telus Digital",
+            "start_date": "09-2022",
+            "end_date": "01-2023",
+            "description": "Completed a series of modules that included the development of applications such as todos, photo albums, budget managers and others to apply different technologies and testing libraries.",
+            "skills": "Apps Testing, styled-components, Containerization, NestJS, Jest, Git, CSS , Babel.js, GitHub, Web development, Kubernetes, Attention to Detail, Continous Integration and Continous Deployment (CI/CD), Analytical skills, Debugging, HTML, Problem Solving, Webpack, Redux.js, SQL, Docker, Bitbucket, PostgreSQL"
+        },
+        {
+            "title": "Assistant Content Manager",
+            "company_name": "Dylunios",
+            "start_date": "03-2021",
+            "end_date": "10-2021",
+            "description": "Worked mainly with CMSs such as WordPress or Gazela, where I had create and update web pages and their new entries.",
+            "skills": "Analytical skills, Problem solving, Attention to Detail, Web development"
+        },
+        {
+            "title": "Junior Software Developer",
+            "company_name": "Hummingbird Tecnología",
+            "start_date": "06-2018",
+            "end_date": "10-2018",
+            "description": "Junior java script developer as front end for web applications",
+            "skills": "Git, Web development, Attention to Detail, Analytical skills, Problem solving, Redux.js, SQL"
+        }
+
+
+    ],
+    "title": "Marcela Obeso"
+    
+}

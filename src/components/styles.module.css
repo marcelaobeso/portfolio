@@ -1,4 +1,77 @@
 
+  .background {
+    position: absolute;
+    align-items: center;
+    display: flex;
+    color: #685e5e;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    overflow: hidden;
+    font-size: 6vw;
+   padding: 1rem;
+  }
+
+  .title {
+    color: #918D8D;
+  }
+  .sidenav {
+  height: 100%; 
+  width: 0; 
+  position: fixed; 
+  z-index: 1;
+  top: -10; 
+  left: 0;
+  background-color: #111; 
+  overflow-x: hidden; 
+  transition: 0.5s; 
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .background {
+    position: absolute;
+    align-items: center;
+    display: flex;
+    color: #685e5e;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    overflow: hidden;
+    font-size: 12vw;
+   padding: 1rem;
+ }
+ .clock {
+  width: 60vw;
+  height: 60vw;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 50%;
+  position: relative;
+}
+.clock .hand.second {
+  width: 2px;
+  height: 20vw;
+  background-color: rgb(255, 255, 255);
+}
+
+.clock .hand.minute {
+  width: 5px;
+  height: 15vw;
+  background-color: rgb(255, 255, 255);
+}
+
+.clock .hand.hour {
+  width: 5px;
+  height: 10vw;
+  background-color: rgb(255, 255, 255);
+}
+}
+
+
   .clock {
     width: 30vw;
     height: 30vw;
@@ -72,61 +145,3 @@
     height: 6vw;
     background-color: rgb(255, 255, 255);
   }
-  .background {
-    position: absolute;
-    align-items: center;
-    display: flex;
-    color: #685e5e;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    z-index: -1;
-    overflow: hidden;
-    font-size: 6vw;
-   padding: 1rem;
-  }
-
-  @media only screen and (max-width: 600px) {
-    .background {
-    position: absolute;
-    align-items: center;
-    display: flex;
-    color: #685e5e;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    z-index: -1;
-    overflow: hidden;
-    font-size: 12vw;
-   padding: 1rem;
- }
- .clock {
-  width: 60vw;
-  height: 60vw;
-  background-color: rgba(255, 255, 255, 0);
-  border-radius: 50%;
-  position: relative;
-}
-.clock .hand.second {
-  width: 2px;
-  height: 20vw;
-  background-color: rgb(255, 255, 255);
-}
-
-.clock .hand.minute {
-  width: 5px;
-  height: 15vw;
-  background-color: rgb(255, 255, 255);
-}
-
-.clock .hand.hour {
-  width: 5px;
-  height: 10vw;
-  background-color: rgb(255, 255, 255);
-}
-}
-
-
-

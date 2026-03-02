@@ -1,0 +1,24 @@
+{
+    "menuItems": [
+        {
+            "name": "About",
+            "icon": "FaUserAlt",
+            "path": "/"
+        },
+        {
+            "name": "Projects",
+            "icon": "FaArchive",
+            "path": "/projects"
+        },
+        {
+            "name": "Resume",
+            "icon": "FaFilePdf",
+            "path": "/resume"
+        },
+        {
+            "name": "Contact",
+            "icon": "FaEnvelope",
+            "path": "/contact"
+        }
+    ]
+}
