@@ -1,7 +1,7 @@
 {
     "about": {
         "title": "About",
-        "content": ["Hi! I'm a Fullstack developer, Typescript,  GCP associate and Github actions certified. I have experience working with Javascript, React, Next.js, Node.js, Express, Nestjs, databases both relational (SQL, PostgreSQL) and non relational (MongoDB).", "I have worked with scalable applications for global companies and also working with individual clients and small projects.", "Whenever I can, I like to contribute to open source projects and help others in the community. I am passionate about learning new technologies and improving my skills. I also love woodworking and cycling."]
+        "content": ["Hi! I'm a Fullstack developer, certified in Typescript,  Google Cloud associate and Github actions. I have experience working with Javascript, React, Next.js, Node.js, Express, Nestjs, databases both relational (SQL, PostgreSQL) and non relational (MongoDB).", "I have worked with scalable applications for global companies and also working with individual clients and small projects.", "Whenever I can, I like to contribute to open source projects and help others in the community. I am passionate about learning new technologies and improving my skills. I also love woodworking and cycling."]
     },
     "picture": "/static/img/profile.jpg",
     "education":[
@@ -65,6 +65,20 @@
 
 
     ],
-    "title": "Marcela Obeso"
+    "title": "Marcela Obeso",
+    "social": [
+        {
+            "name": "Github",
+            "url": "https://github.com/marcelaobeso"
+        },
+        {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/marcela-obeso/"
+        },
+        {
+            "name": "Email",
+            "url": "mailto:march.obeso@gmail.com"
+        }
+    ]
     
 }

@@ -1,38 +1,32 @@
-import Image from "next/image";
-export default function Contact() {
-    return (
-         <div className="justify-center gap-2 flex flex-row z-20 ">
 
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://www.linkedin.com/in/marcela-obeso/"
-          target="_blank"
-          rel="noopener noreferrer"
+import content from "../../../public/content.json"
+import { FaGithub, FaLinkedinIn, FaEnvelope } from "react-icons/fa";
+
+export type Social = {
+    name: string;
+    url: string;
+}
+export default function Contact() {
+  
+  return (
+    <div className="justify-center gap-6 flex flex-wrap z-20 ">
+      {content.social.map((social: Social, index)=> (
+        <div key={social.name+index} className="border-1 border-zinc-500 rounded-md p-8 mb-4 card">
+            <a
+            className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+            href={social.url}
+            target="_blank"
+            rel="noopener noreferrer"
         >
-          <Image
-            aria-hidden
-            src="/linkedin.png"
-            alt="linkedin icon"
-            width={16}
-            height={16}
-          />
-          Linkedn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://github.com/marcelaobeso"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/github-sign.png"
-            alt="github icon"
-            width={16}
-            height={16}
-          />
-          Github
-        </a>
-        </div>
-    )
+                {social.name === "Github" && <FaGithub className="text-black dark:text-white" />}
+                {social.name === "LinkedIn" && <FaLinkedinIn className="text-black dark:text-white" />}
+                {social.name === "Email" && <FaEnvelope className="text-black dark:text-white" />}
+                {social.name}
+            </a>
+      </div>
+      ))
+      }
+      
+  </div>
+  )
 }
