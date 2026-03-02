@@ -29,9 +29,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <header className="flex text-left text-6xl md:text-5xl font-bold p-7">
-              <Title/>
-        </header>
+      <header className="flex text-left text-6xl md:text-5xl font-bold p-7">
+            <Title/>
+      </header>
       <div className="font-[family-name:var(--font-geist-sans)]">
       <main>
         <div className="flex">
